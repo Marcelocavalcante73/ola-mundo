@@ -3,6 +3,14 @@ function mostrarMensagem() {
         "🎉 Você acabou de aprender JavaScript!";
 }
 
+let azul = false;
+
 function mudarCor() {
-    document.body.style.backgroundColor = "blue";
+    if (azul === false) {
+        document.body.style.backgroundColor = "blue";
+        azul = true;
+    } else {
+        document.body.style.backgroundColor = "#222";
+        azul = false;
+    }
 }
