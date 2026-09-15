@@ -1,9 +1,9 @@
+let azul = false;
+
 function mostrarMensagem() {
     document.getElementById("mensagem").innerHTML =
         "🎉 Você acabou de aprender JavaScript!";
 }
-
-let azul = false;
 
 function mudarCor() {
     if (azul === false) {
