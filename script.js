@@ -1,3 +1,4 @@
 function mostrarMensagem() {
-    alert("Olá! Você clicou no botão!");
+    document.getElementById("mensagem").innerHTML =
+        "🎉 Você acabou de aprender JavaScript!";
 }
